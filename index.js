@@ -1,2 +1,3 @@
-module.export={
-unformatted: "nonsense"}
+module.export = {
+  unformatted: 'nonsense',
+}
