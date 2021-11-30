@@ -1,2 +1,3 @@
-module.exports= {
-dope: true}
+module.exports = {
+  dope: true,
+}
