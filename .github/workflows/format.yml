@@ -22,8 +22,6 @@ jobs:
       - run: npm install
       - run: npm run format
       - run: |
-          git config user.name "Remix Format Bot"
-          git config user.email "formatbot@remix.run"
           git status
           git add .
           git commit -m "chore: format"
