@@ -1,4 +1,3 @@
 module.exports = {
-dope: true,
-
+  dope: true,
 }
