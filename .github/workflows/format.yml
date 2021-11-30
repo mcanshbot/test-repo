@@ -22,8 +22,8 @@ jobs:
       - run: npm install
       - run: npm run format
       - run: |
-          git config --local user.email "$(git log --format='%ae' HEAD^!)"
-          git config --local user.name "$(git log --format='%an' HEAD^!)"
+          git config --local user.email "formatbot@remix.run"
+          git config --local user.name "Remix Format Bot"
           git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
           git status
           git add .
