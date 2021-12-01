@@ -1,7 +1,5 @@
 {
-  "scripts": {
-    "format": "prettier --write ."
-  },
+  "scripts": {},
   "devDependencies": {
     "prettier": "2.5.0"
   }
