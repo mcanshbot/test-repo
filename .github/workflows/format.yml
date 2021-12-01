@@ -24,7 +24,7 @@ jobs:
           node-version: '14'
 
       - name: Install Dependencies
-        run: npm install
+        uses: jaid/action-npm-install@v1.2.1
 
       - name: Run format script in package.json
         run: npm run format --if-present
