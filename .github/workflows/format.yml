@@ -20,12 +20,11 @@ jobs:
         with:
           node-version: '14'
       - run: npm install
-      - run: npm run format
       - run: |
+          npm run format
           git config --local user.email "bot@remix.run"
           git config --local user.name "Remix Run Bot"
           git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
-          git status
           git add .
           if [ -z "$(git status --porcelain)" ]; then
             echo "no formatting changed"
