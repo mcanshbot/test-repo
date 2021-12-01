@@ -28,6 +28,7 @@ jobs:
           git status
           git add .
           if [ -z "$(git status --porcelain)" ]; then
+            echo "no formatting changed"
             exit 0
           fi
           git commit -m "chore: format"
