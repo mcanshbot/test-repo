@@ -1,5 +1,5 @@
 module.export = {
   unformatted: 'nonsense',
   more: 'nonsense',
-one: "more"
+  one: 'more',
 }
